@@ -1,0 +1,30 @@
+{
+    "name": "tartan/imdb-grabber",
+    "type": "library",
+    "description": "This PHP library enables you to scrape data from IMDB.com.",
+    "keywords": [
+        "IMDb",
+        "API",
+        "Client",
+        "Grabber"
+    ],
+    "homepage": "https://github.com/iamtartan/imdb-grabber",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aboozar Ghaffari <Tartan>",
+            "email": "aboozar.ghf@gmail.com",
+            "homepage": "http://tartan.us.to/"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tartan\\Imdb": "src/"
+        }
+    }
+}
